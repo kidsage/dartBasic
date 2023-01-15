@@ -39,3 +39,8 @@
 //     name.isNotEmpty;
 //   }
 // }
+
+// final : 한 번 정의된 변수를 수정하지 않게 할 때 사용
+void main() {
+  final name = 'me';
+}
