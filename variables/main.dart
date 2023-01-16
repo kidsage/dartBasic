@@ -41,6 +41,22 @@
 // }
 
 // final : 한 번 정의된 변수를 수정하지 않게 할 때 사용
-void main() {
-  final name = 'me';
-}
+// void main() {
+//   final name = 'me';
+// }
+
+// late : final, var 앞에 붙일 수 있는 수식어
+//      : 변수를 생성하는데 데이터가 없이 생성할 수 있게 해준다. data fetching에 유용
+// void main() {
+//   late final String name;
+//   // Do something, go to api
+//   name = 'me';
+// }
+
+// constant = const : compile-time constant를 만들어줌
+// js, ts 에서 const는 위에 final과 비슷
+// void main() {
+//   const API =
+//       fetchApi(); // X : api에서 받아야 하는 데이터이므로 const 대신 final을 사용해야 함. 따라서 사용자 레벨에서 관리되는 값이 아님.
+//   const max_allowed_price = 120;
+// }
